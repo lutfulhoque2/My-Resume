@@ -164,3 +164,43 @@ nav h3 a{
 .learn{
     color: #0D1321;
 }
+
+.Support{
+    text-align: center;
+    width: 1050px;
+    height: 270px;
+    margin: 100px;
+    padding: 64px 48px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    border-radius: 16px;
+    color: #FFFFFF;
+}
+
+.Support-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.Support-description{
+    font-size: 16px;
+}
+
+#search{
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.Support-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
