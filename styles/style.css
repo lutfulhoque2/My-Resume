@@ -68,7 +68,7 @@ nav h3 a{
 
 .web-development{
     width: 1140px;
-    height: 1393px;
+    height: 1200px;
     margin-left: 20px;
     padding: 80px 97px;
     background-color: rgba(20, 36, 33, 0.02);
@@ -88,4 +88,28 @@ nav h3 a{
     background-color: #FFFFFF;
     margin-bottom: 20px;
     padding: 30px;
+}
+
+.inspiration{
+    width: 1140px;
+    height: 775px;
+    text-align: center;
+    margin-left: 50px;
+    padding: 0 50px;
+}
+
+.inspiration-title{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.inspiration-description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.video{
+    border: 2px solid black;
+    padding: 40px 0px;
+    border-radius: 10px;
 }
