@@ -9,7 +9,7 @@ x
     color: #0D1321;
 }
 
-header{
+header,main{
     font-family: "Azeret Mono", monospace;
 }
 
@@ -64,4 +64,28 @@ nav h3 a{
     background-color: #0D1321;
     color: #FFFFFF;
     border-radius: 8px ;
+}
+
+.web-development{
+    width: 1140px;
+    height: 1393px;
+    margin-left: 20px;
+    padding: 80px 97px;
+    background-color: rgba(20, 36, 33, 0.02);
+}
+
+.web{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.coding,.help,.Change{
+    width: 850px;
+    height: 250px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 30px;
 }
