@@ -169,7 +169,7 @@ nav h3 a{
     text-align: center;
     width: 1050px;
     height: 270px;
-    margin: 100px;
+    margin: 200px 100px 70px 100px ;
     padding: 64px 48px;
     background-image: url(../assets/handshake.jpg);
     background-position: center;
@@ -203,6 +203,34 @@ nav h3 a{
     font-size: 18px;
     font-weight: 500;
     padding: 10px;
+}
+
+.Next-target{
+    margin-top: 200px;
+}
+
+.Next-target-h{
+    text-align: center;
+}
+
+.Next-target-title{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+
+.react,.nodejs,.mongodb{
+    width: 1140px;
+    height: 240px;
+    margin-bottom: 20px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.react{
+    
 }
 
 .footer{
