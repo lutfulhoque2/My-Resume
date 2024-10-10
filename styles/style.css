@@ -113,3 +113,54 @@ nav h3 a{
     padding: 40px 0px;
     border-radius: 10px;
 }
+
+.Targrt{
+    width: 1140px;
+    height: 1437px;
+    margin: 100px;
+}
+
+.Current-target{
+    height: 460px;
+    text-align: center;
+}
+
+.Current-target-title{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.Current-target-description{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.Current-target-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.html,.css,.js{
+    width: 350px;
+    height: 350px;
+    padding: 40px;
+    text-align: left;
+}
+
+.html{
+    background-color: rgba(255, 76, 30, 0.05);
+    margin-right: 24px;
+}
+
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+    margin-right: 24px;
+}
+
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.learn{
+    color: #0D1321;
+}
