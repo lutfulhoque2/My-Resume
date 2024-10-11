@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-/* font-family: "Azeret Mono", monospace; */
-x
+
 *{
     margin: 0;
 }
 
+/* Shared Styles */
 .dark-01{
     color: #0D1321;
 }
@@ -13,6 +13,7 @@ header,main,footer,.coding-btn{
     font-family: "Azeret Mono", monospace;
 }
 
+/* Navbar Styles */
 nav{
     display: flex;
     justify-content: space-between;
@@ -31,6 +32,8 @@ nav h3 a{
     border-radius: 8px;
     border: 1px solid black;
 }
+
+/* Banner Styles */
 .banner{
     background-image: url(../assets/Hero-bg.png);
     justify-content: center;
@@ -43,7 +46,6 @@ nav h3 a{
     text-align: center;
     align-items: center;
     padding: 50px 220px;
-
 }
 
 .banner-title{
@@ -66,6 +68,7 @@ nav h3 a{
     border-radius: 8px ;
 }
 
+/* Why Web Development Styles */
 .web-development{
     width: 1140px;
     height: 1200px;
@@ -96,6 +99,7 @@ nav h3 a{
     height: 35px;
 }
 
+/* My Inspiration Styles */
 .inspiration{
     width: 1140px;
     height: 775px;
@@ -107,11 +111,13 @@ nav h3 a{
 .inspiration-title{
     font-size: 32px;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 
 .inspiration-description{
     font-size: 16px;
     font-weight: normal;
+    margin-bottom: 25px;
 }
 
 .video{
@@ -120,7 +126,8 @@ nav h3 a{
     border-radius: 10px;
 }
 
-.Targrt{
+/* My Target Section */
+.Target{
     width: 1140px;
     height: 1320px;
     margin: 100px;
@@ -171,6 +178,38 @@ nav h3 a{
     color: #0D1321;
 }
 
+.Next-target{
+    margin-top: 200px;
+}
+
+.Next-target-h{
+    text-align: center;
+}
+
+.Next-target-title{
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.Next-target-description{
+    margin-bottom: 25px;
+}
+
+.react,.nodejs,.mongodb{
+    width: 1100px;
+    height: 160px;
+    margin-bottom: 20px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    border: 1px solid rgba(83, 80, 80, 0.301);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* Suppor Section */
 .Support{
     text-align: center;
     width: 1050px;
@@ -211,33 +250,7 @@ nav h3 a{
     padding: 10px;
 }
 
-.Next-target{
-    margin-top: 200px;
-}
-
-.Next-target-h{
-    text-align: center;
-}
-
-.Next-target-title{
-    font-size: 32px;
-    font-weight: 900;
-}
-
-
-.react,.nodejs,.mongodb{
-    width: 1100px;
-    height: 160px;
-    margin-bottom: 20px;
-    background-color: rgba(13, 19, 33, 0.03);
-    display: flex;
-    align-items: center;
-    gap: 42px;
-    border: 1px solid rgba(83, 80, 80, 0.301);
-    border-radius: 10px;
-    padding: 25px;
-}
-
+/* Footer Styles */
 .footer{
     width: 1200px;
     height: 100px;
